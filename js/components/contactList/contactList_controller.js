@@ -11,7 +11,9 @@ angular.module('contactsApp')
 
 	ctrl.t = {
 		addContact : t('contacts', 'Add contact'),
-		emptySearch : t('contacts', 'No search result for {query}', {query: ctrl.searchTerm})
+		emptySearch : t('contacts', 'No search result for {query}', {query: ctrl.searchTerm}),
+		oneContact : t('contacts', 'contact'),
+		multipleContacts : t('contacts', 'contacts')
 	};
 
 
